@@ -18,7 +18,8 @@ function NavBar() {
             <div className="col-6 ">
                 <a
                     className="nav-link"
-                    href="/home"
+                    href="/"
+                    active
                 >
                     Home
                 </a>

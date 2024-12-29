@@ -1,6 +1,7 @@
 * {
-    --default-font-family: "Time News Roman", sans-serif;
+    --default-font-family: "Playfair Display";
     --background-color: #ffffff;
+    --dark-light-bg: #f9f9f7;
     --gray-color: #474747;
     --red-dark-color: #ad343e;
     --white-color: #ffffff;
@@ -8,6 +9,7 @@
 }
 body {
     overflow-x: hidden;
+    font-family: var(--default-font-family);
 }
 .container-xxl {
     height: 100vh;
@@ -16,7 +18,6 @@ body {
 }
 .header {
     background-color: var(--background-color);
-    height: 10vh;
 }
 .content-body {
     min-height: 70vh;
@@ -93,5 +94,46 @@ body {
         transform: translate(-50%, -50%);
         text-align: center;
         padding: 100px;
+    }
+}
+.categoryImage {
+    width: 100px;
+    height: 100px;
+}
+.categoryCard {
+    a {
+        text-decoration: none;
+        color: var(--red-dark-color);
+    }
+}
+.aboutContent {
+    padding: 100px;
+    background-color: var(--dark-light-bg);
+    max-height: 700px;
+}
+
+.aboutSectionImage {
+    width: 100%;
+}
+.blackBox {
+    position: relative;
+    bottom: 30%;
+    left: 75%;
+    transform: translateX(-50%);
+    padding: 50px 30px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    text-align: center;
+    img {
+        width: 18px;
+        height: 18px;
+    }
+    a {
+        text-decoration: none;
+        color: var(--white-color);
+        font-size: 14px;
     }
 }
