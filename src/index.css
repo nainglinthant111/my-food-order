@@ -17,7 +17,7 @@ body {
     background-color: var(--background-color);
 }
 .header {
-    background-color: var(--background-color);
+    background-color: var(--dark-light-bg);
 }
 .content-body {
     min-height: 70vh;
@@ -43,7 +43,7 @@ body {
     }
 }
 .nav-link:hover,
-.nav-link:active,
+.nav-link .active,
 .nav-link::after {
     background-color: var(--menu-hover-color);
     border-radius: 50px;
@@ -135,5 +135,33 @@ body {
         text-decoration: none;
         color: var(--white-color);
         font-size: 14px;
+    }
+}
+.deliverySession {
+    background-color: var(--dark-light-bg);
+    .deliveryImage {
+        width: 100%;
+    }
+    .deliveryIcon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.customerInfo {
+    background-color: var(--dark-light-bg);
+    h4 {
+        color: var(--red-dark-color);
+    }
+}
+.blogSection {
+    background-color: var(--dark-light-bg);
+    img {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .big {
+        height: 97%;
     }
 }

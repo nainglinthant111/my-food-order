@@ -14,7 +14,7 @@ function AboutContent(props) {
                         <div className="row blackBox">
                             <h4 className="text-start">Come and visit us</h4>
                             <a
-                                href="https://www.facebook.com"
+                                href="tel:+959750244049"
                                 className="text-start d-flex mt-3"
                             >
                                 <img
@@ -25,23 +25,23 @@ function AboutContent(props) {
                                 <div>(414) 857 - 0107</div>
                             </a>
                             <a
-                                href="https://www.facebook.com"
+                                href="https://mail.google.com/mail/u/0/#inbox?compose=new"
                                 className="text-start d-flex mt-2"
                             >
                                 <img
                                     className="me-2"
-                                    src="../images/phone_logo.svg"
+                                    src="../images/mail_logo.svg"
                                     alt="svg"
                                 />
                                 <div>happytummy@restaurant.com</div>
                             </a>
                             <a
-                                href="https://www.facebook.com"
+                                href="https://maps.app.goo.gl/zC2oAtThedtjxB2UA"
                                 className="text-start d-flex mt-2"
                             >
                                 <img
                                     className="me-2"
-                                    src="../images/phone_logo.svg"
+                                    src="../images/location_logo.svg"
                                     alt="svg"
                                 />
                                 <div>

@@ -35,4 +35,6 @@ function MenuTypeCard(props) {
         </div>
     );
 }
+
+
 export default MenuTypeCard;
