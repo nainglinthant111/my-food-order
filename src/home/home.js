@@ -132,21 +132,21 @@ function Home() {
                 <div className="mt-3">
                     <MenuTypeCard card={menuCard} />
                 </div>
-                <div>
-                    <AboutContent button="Ok" />
-                </div>
-                <div>
-                    <ServiceSession serviceCard={serviceCard} />
-                </div>
-                <div>
-                    <DeliverySession />
-                </div>
-                <div>
-                    <CustomerSession customerCard={customerCard} />
-                </div>
-                <div>
-                    <BlogSection blogCard={blogCard} />
-                </div>
+            </div>
+            <div>
+                <AboutContent button="Ok" />
+            </div>
+            <div>
+                <ServiceSession serviceCard={serviceCard} />
+            </div>
+            <div>
+                <DeliverySession />
+            </div>
+            <div>
+                <CustomerSession customerCard={customerCard} />
+            </div>
+            <div>
+                <BlogSection blogCard={blogCard} />
             </div>
         </>
     );

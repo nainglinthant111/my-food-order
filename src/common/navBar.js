@@ -48,7 +48,12 @@ function NavBar() {
                     Contact
                 </a>
             </div>
-            <div className="col-2">
+            <div
+                className="col-2"
+                onClick={() => {
+                    window.location.href = "/bookTable";
+                }}
+            >
                 <RoundedButton
                     color={navButton.color}
                     text={navButton.text}

@@ -3,6 +3,7 @@ function CustomerSession(props) {
     var customerCard = props.customerCard;
     return (
         <div className="row p-5">
+            <h1 className="text-center mb-4">What Our Customers Say</h1>
             {customerCard.map((card, index) => (
                 <div
                     className="col-4 mb-4"
