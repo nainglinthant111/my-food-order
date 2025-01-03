@@ -3,9 +3,6 @@ import RoundedButton from "../common/buttonContent";
 function BlogSection(props) {
     const card = props.blogCard[0];
     const restCards = props.blogCard.slice(1);
-    console.log("card", card.image);
-    console.log("restCards", restCards);
-
     return (
         <div className="row p-5 blogSection">
             <div className="row">

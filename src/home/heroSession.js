@@ -30,7 +30,12 @@ function HeroSession() {
                                 text="Book A Table"
                             />
                         </div>
-                        <div className="col-6 d-flex justify-content-start">
+                        <div
+                            className="col-6 d-flex justify-content-start"
+                            onClick={() => {
+                                window.location.href = "/menu";
+                            }}
+                        >
                             <RoundedButton
                                 color="gray"
                                 text="Explore Menu"

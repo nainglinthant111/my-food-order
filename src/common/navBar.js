@@ -1,11 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import RoundedButton from "./buttonContent";
+import { useLocation } from "react-router-dom"; // For React Router
+
 const navButton = {
     color: "gray",
     text: "Book A Table",
 };
 
 function NavBar() {
+    const location = useLocation(); // Get the current URL path
+    const [activePath, setActivePath] = useState("");
+
+    useEffect(() => {
+        setActivePath(location.pathname);
+    }, [location]);
+
+    const links = [
+        { path: "/", label: "Home" },
+        { path: "/about", label: "About" },
+        { path: "/menu", label: "Menu" },
+        { path: "/pages", label: "Pages" },
+        { path: "/contact", label: "Contact" },
+    ];
+
     return (
         <div className="row titleBar">
             <div className="col-4">
@@ -15,41 +32,21 @@ function NavBar() {
                     alt="svg"
                 />
             </div>
-            <div className="col-6 ">
-                <a
-                    className="nav-link"
-                    href="/"
-                    active
-                >
-                    Home
-                </a>
-                <a
-                    className="nav-link"
-                    href="/about"
-                >
-                    About
-                </a>
-                <a
-                    className="nav-link"
-                    href="/menu"
-                >
-                    Menu
-                </a>
-                <a
-                    className="nav-link"
-                    href="/pages"
-                >
-                    Pages
-                </a>
-                <a
-                    className="nav-link"
-                    href="/contact"
-                >
-                    Contact
-                </a>
+            <div className="col-6 d-flex align-items-center">
+                {links.map((link) => (
+                    <a
+                        key={link.path}
+                        className={`nav-link ${
+                            activePath === link.path ? "active" : ""
+                        }`}
+                        href={link.path}
+                    >
+                        {link.label}
+                    </a>
+                ))}
             </div>
             <div
-                className="col-2"
+                className="col-2 d-flex align-items-center"
                 onClick={() => {
                     window.location.href = "/bookTable";
                 }}
@@ -62,4 +59,5 @@ function NavBar() {
         </div>
     );
 }
+
 export default NavBar;

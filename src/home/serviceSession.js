@@ -1,11 +1,10 @@
 function ServiceSession(props) {
-    console.log("serviceCard", props.serviceCard);
     var serviceCard = props.serviceCard;
     return (
         <>
             <div className="row p-5">
                 {serviceCard.map((card, index) => (
-                    <div 
+                    <div
                         className="col-3 my-3"
                         key={index}
                     >

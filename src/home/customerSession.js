@@ -1,5 +1,4 @@
 function CustomerSession(props) {
-    console.log(props.customerCard);
     var customerCard = props.customerCard;
     return (
         <div className="row p-5">

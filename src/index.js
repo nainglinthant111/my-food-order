@@ -10,10 +10,10 @@ import About from "./about/about";
 import MaintenancePage from "./maintenance";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import BookTable from "./home/bookTable";
+import OurMenu from "./menu/MenuPage";
 
 function App() {
     const isMaintenanceMode = false;
-    console.log("isMaintenanceMode", isMaintenanceMode);
 
     return (
         <Router>
@@ -44,7 +44,7 @@ function App() {
                                 />
                                 <Route
                                     path="/menu"
-                                    element={<Home />}
+                                    element={<OurMenu />}
                                 />
                                 <Route
                                     path="/pages"

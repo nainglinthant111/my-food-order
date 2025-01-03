@@ -23,7 +23,6 @@ function MenuTypeCard(props) {
                             <a
                                 href={card.cardLink}
                                 className=" text-center my-4"
-                                target="_blank"
                                 rel="noopener noreferrer"
                             >
                                 Explore Menu
@@ -35,6 +34,5 @@ function MenuTypeCard(props) {
         </div>
     );
 }
-
 
 export default MenuTypeCard;

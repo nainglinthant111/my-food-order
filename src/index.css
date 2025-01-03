@@ -44,7 +44,7 @@ body {
     }
 }
 .nav-link:hover,
-.nav-link .active,
+.nav-link.active,
 .nav-link::after {
     background-color: var(--menu-hover-color);
     border-radius: 50px;
@@ -238,5 +238,21 @@ body {
         background-color: var(--white-color);
         border-radius: 10px;
         border: 1px solid var(--gray-color);
+    }
+}
+.orderApp {
+    background-color: var(--dark-light-bg);
+    p {
+        font-size: 55px;
+    }
+    img {
+        width: 100%;
+        cursor: pointer;
+    }
+}
+.pragCard {
+    background-color: var(--background-color);
+    .card-body {
+        height: 200px;
     }
 }

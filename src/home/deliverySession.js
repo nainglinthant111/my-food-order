@@ -24,7 +24,7 @@ function DeliverySession() {
                                     src="../images/delivery_icon1.svg"
                                     alt="svg"
                                 />
-                                <text>Delivery within 30 minutes</text>
+                                <span>Delivery within 30 minutes</span>
                             </div>
                             <div className="d-flex align-items-center mt-3">
                                 <img
@@ -32,7 +32,7 @@ function DeliverySession() {
                                     src="../images/delivery_icon2.svg"
                                     alt="svg"
                                 />
-                                <text>Best Offer & Prices</text>
+                                <span>Best Offer & Prices</span>
                             </div>
                             <div className="d-flex align-items-center mt-3">
                                 <img
@@ -40,7 +40,7 @@ function DeliverySession() {
                                     src="../images/delivery_icon3.svg"
                                     alt="svg"
                                 />
-                                <text>Online Services Available</text>
+                                <span>Online Services Available</span>
                             </div>
                         </div>
                     </div>

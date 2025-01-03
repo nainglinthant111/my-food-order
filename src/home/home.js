@@ -12,28 +12,28 @@ const menuCard = [
         cardTitle: "Breakfast",
         cardDescription:
             "In the new era of technology we look in the future with certainty and pride for our life.",
-        cardLink: "https://www.catho.com",
+        cardLink: "/menu?type=Breakfast",
     },
     {
         cardLogo: "../images/category2.svg",
         cardTitle: "Main Dishes",
         cardDescription:
             "In the new era of technology we look in the future with certainty and pride for our life.",
-        cardLink: "https://www.catho.com",
+        cardLink: "/menu?type=Main Dishes",
     },
     {
         cardLogo: "../images/category3.svg",
         cardTitle: "Drinks",
         cardDescription:
             "In the new era of technology we look in the future with certainty and pride for our life.",
-        cardLink: "https://www.catho.com",
+        cardLink: "/menu?type=Drinks",
     },
     {
         cardLogo: "../images/category4.svg",
         cardTitle: "Desserts",
         cardDescription:
             "In the new era of technology we look in the future with certainty and pride for our life.",
-        cardLink: "https://www.catho.com",
+        cardLink: "/menu?type=Desserts",
     },
 ];
 const serviceCard = [
