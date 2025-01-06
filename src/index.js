@@ -11,6 +11,8 @@ import MaintenancePage from "./maintenance";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import BookTable from "./home/bookTable";
 import OurMenu from "./menu/MenuPage";
+import Pages from "./page/Pages";
+import ContactApp from "./content/Contact";
 
 function App() {
     const isMaintenanceMode = false;
@@ -48,11 +50,11 @@ function App() {
                                 />
                                 <Route
                                     path="/pages"
-                                    element={<Home />}
+                                    element={<Pages />}
                                 />
                                 <Route
                                     path="/contact"
-                                    element={<Home />}
+                                    element={<ContactApp />}
                                 />
                                 <Route
                                     path="/bookTable"

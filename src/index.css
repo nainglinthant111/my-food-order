@@ -256,3 +256,46 @@ body {
         height: 200px;
     }
 }
+
+.blogPages {
+    p {
+        font-size: 100px;
+    }
+    .card {
+        height: 100%;
+    }
+}
+
+.contentSection {
+    p {
+        font-size: 100px;
+    }
+    .content {
+        background-color: var(--dark-light-bg);
+    }
+    .content1 {
+        background-color: var(--dark-light-bg);
+        height: 50%;
+    }
+    .content2 {
+        height: 50%;
+        position: relative;
+    }
+    .content3 {
+        position: absolute;
+        width: 550px;
+        top: 60%;
+        right: 27%;
+    }
+    .content4 {
+        position: relative;
+        height: 500px;
+    }
+    input {
+        border: 1px solid var(--gray-color);
+        border-radius: 50px;
+    }
+    .content5 {
+        width: 550px;
+    }
+}
